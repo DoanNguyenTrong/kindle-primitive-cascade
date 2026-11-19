@@ -1,0 +1,10 @@
+[package]
+name = "cascade-kindle"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cascade-core.workspace = true
+cascade-render.workspace = true
+primitive-app.workspace = true
