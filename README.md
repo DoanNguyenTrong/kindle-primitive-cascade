@@ -1,6 +1,6 @@
 <div align="center">
 
-# Primitive Cascade
+# Cascade
 
 **Clear rows in an original falling-piece game for e-ink.**
 
@@ -34,7 +34,7 @@ Cascade is the working title for a game that fits six shapes into a seven-lane b
 
 1. Find the local ARMHF package and USB installation steps in the [install guide](INSTALL.md).
 2. Extract the package, copy the `cascade` and `documents` folders to your jailbroken Kindle’s user storage, and eject it.
-3. Open Primitive Cascade from Primitive Launcher. **Done** returns to the launcher grid.
+3. Open Cascade from Primitive Launcher. **Done** returns to the launcher grid.
 
 ## Develop locally
 

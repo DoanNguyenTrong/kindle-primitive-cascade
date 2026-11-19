@@ -1,5 +1,5 @@
 #!/bin/sh
-# Name: Primitive Cascade
+# Name: Cascade
 # Author: Primitive AI
 # DontUseFBInk
 # PrimitiveUSBLease

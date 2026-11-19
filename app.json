@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "primitive-cascade",
   "dir": "cascade",
-  "name": "Primitive Cascade",
+  "name": "Cascade",
   "subtitle": "A falling-piece game for e-ink",
   "developer": {
     "name": "Primitive AI"
