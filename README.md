@@ -45,7 +45,10 @@ cargo test --offline --locked --workspace
 cargo run --offline --locked -p cascade-desktop
 ```
 
-The desktop target writes previews to `build/previews/`. The desktop simulation exercises falling steps, touch controls, and sleep. The release name, pace, and physical Kindle timing and ghosting checks are pending. See the [device notes](docs/device-notes.md) for the verification checklist.
+The desktop target writes previews to `build/previews/`. The desktop simulation exercises falling steps, touch controls, and sleep.
+On an ARMHF Kindle Oasis 3 running firmware 5.18.2, Cascade opened and closed the pace picker, preserved the
+paused board and selected pace, and returned to Launcher. The release name, pace, and physical Kindle timing and
+ghosting checks are pending. See the [device notes](docs/device-notes.md) for the verification checklist.
 
 ## Licence
 
