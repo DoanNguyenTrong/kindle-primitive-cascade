@@ -32,9 +32,8 @@ Cascade is the working title for a game that fits six shapes into a seven-lane b
 
 ## Quick start
 
-1. Find the local ARMHF package and USB installation steps in the [install guide](INSTALL.md).
-2. Extract the package, copy the `cascade` and `documents` folders to your jailbroken Kindle’s user storage, and eject it.
-3. Open Cascade from Primitive Launcher. **Done** returns to the launcher grid.
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Cascade** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers local USB testing.
 
 ## Develop locally
 
