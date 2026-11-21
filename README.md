@@ -2,15 +2,22 @@
 
 # Cascade
 
-**Clear rows in an original falling-piece game for e-ink.**
+**A falling-piece game for e-ink**
 
-[**Install guide**](INSTALL.md) · [**Device notes**](docs/device-notes.md) · [**Changelog**](CHANGELOG.md)
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-cascade?label=release)](https://github.com/PrimitiveOS/kindle-primitive-cascade/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-34-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
+
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-cascade/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
 </div>
 
 ---
 
-Cascade is the working title for a game that fits six shapes into a seven-lane board. Clear rows to earn points and reach higher levels. Steer with the page buttons or touch controls.
+Guide original falling shapes on a narrow board, clear rows and beat your score. Play with the page buttons or touch, and choose from three paces.
+
+## Quick start
+
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Cascade** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
 ## Screenshots
 
@@ -30,11 +37,6 @@ Cascade is the working title for a game that fits six shapes into a seven-lane b
 - **Plan ahead.** Save one piece with **Hold piece** and preview the next shape beside the board.
 - **Pause and resume.** Choose one of three provisional paces. Cascade remembers your best score and pauses when the Kindle sleeps. Choose **Play** after wake to resume.
 
-## Quick start
-
-After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Cascade** under **Apps**,
-tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers local USB testing.
-
 ## Develop locally
 
 Keep `doannt-kindle-tools` and `doannt-kindle-launcher` beside this checkout, then run the following from this repo.
@@ -48,6 +50,23 @@ The desktop target writes previews to `build/previews/`. The desktop simulation 
 On an ARMHF Kindle Oasis 3 running firmware 5.18.2, Cascade opened and closed the pace picker, preserved the
 paused board and selected pace, and returned to Launcher. The release name, pace, and physical Kindle timing and
 ghosting checks are pending. See the [device notes](docs/device-notes.md) for the verification checklist.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.1.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**34 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md) · [Device notes](docs/device-notes.md)
 
 ## Licence
 
