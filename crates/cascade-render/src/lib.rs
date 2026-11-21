@@ -199,7 +199,7 @@ fn cancel(w: i32) -> Rect {
 impl App for View {
     fn draw(&self, canvas: &mut Canvas) {
         let w = canvas.bounds().w;
-        header(canvas, "Cascade", "Done");
+        header(canvas, "Cascade", "Exit");
         let message = if self.save_error {
             "Could not save this game."
         } else if self.game.ended {
